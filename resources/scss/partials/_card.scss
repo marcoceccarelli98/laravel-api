@@ -1,0 +1,29 @@
+@import "./variables";
+.project-card {
+    a {
+        text-decoration: none;
+    }
+    width: 300px;
+    word-wrap: break-word;
+    .image-container {
+        overflow: hidden;
+        background-color: green;
+        display: flex;
+        // justify-content: center;
+        align-items: start;
+        img {
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+        }
+    }
+    .title-container {
+        padding-bottom: 30px;
+        margin-top: 20px;
+        p {
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}
